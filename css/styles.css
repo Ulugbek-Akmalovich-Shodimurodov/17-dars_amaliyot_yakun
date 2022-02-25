@@ -13,113 +13,203 @@
     margin-right: auto;
 }
 
-.date_title {
-    padding-top: 50px;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 51px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.date_paragrif {
-    text-align: center;
-    width: 700px;
-    margin-left: 300px;
-    padding-top: 30px;
-    line-height: 2;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.header_list-item {
+.section-title {
     display: flex;
+    font-size: 40px;
+    font-family: 'roboto';
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_list {
+    display: flex;
+    margin: 30px;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 200px;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.932);
+    box-shadow: 0 5px 10px 1px #aaa;
+}
+
+.number {
+    font-weight: 900;
+    font-size: 28px;
+    font-family: 'roboto';
+    color: red;
+}
+
+.card_title {
+    font-family: 'roboto';
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.section_paragrif {
+    display: flex;
+    font-family: 'roboto';
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: #777;
+}
+
+.card_list {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    width: 450px;
+    height: 120px;
+    margin-top: auto;
+    border-radius: 15px;
+    border: 1px solid;
+    background-color: red;
+}
+
+.cards {}
+
+.card_img {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.card_date {
+    width: 250px;
+    margin: 15px auto;
+    color: #fff;
+    font-family: 'roboto';
+}
+
+.paragrif {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+
+.cards1 {
+    display: flex;
+    width: 450px;
+    height: 120px;
+    margin-top: auto;
+    border-radius: 15px;
+    border: 1px solid RED;
+    background-color: #fff;
+}
+
+.card_date1 {
+    width: 250px;
+    margin: 15px auto;
+    color: #000;
+    font-family: 'roboto';
+}
+
+.number1 {
+    font-weight: 900;
+    font-size: 28px;
+    font-family: 'roboto';
+    color: #FFF;
+    background-color: #333;
+}
+
+.cards2 {
+    display: flex;
+    width: 450px;
+    height: 120px;
+    margin-top: auto;
+    border-radius: 15px;
+    border: 1px solid RED;
+    background-color: #fff;
+}
+
+.icons1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.bgc {
+    display: flex;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.form {
+    display: flex;
+    margin-top: 30px;
     justify-content: space-around;
     align-items: center;
 }
 
-.cards_list {
-    margin-top: 50px;
+.paragrif_form {
+    align-items: center;
+    width: 350px;
+    font-family: 'roboto';
+    color: #fff;
 }
 
-.card {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    line-height: 2;
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: end;
+    width: 250px;
+    padding: 25px;
+    border-radius: 35px;
+    font-size: 20px;
 }
 
-.card_title {
-    font-family: Poppins;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.card_paragrif {
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.watch_link {
-    margin-top: 1000px;
-    margin-left: -50px;
-    text-decoration: none;
-    color: blue;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-}
-
-.watch_card {
-    /* z-index: 20; */
+.input_div {
     position: relative;
-    width: 250px;
-    height: 300px;
-    margin: 50px;
-    border: 3px solid #000;
-    border-radius: 30px;
-    background-color: rgb(245, 139, 139);
 }
 
-.watch_img {
+.iconka {
     position: absolute;
 }
 
-.watch_icon {
+.form_img {
     position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.watch_circle {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    z-index: 10;
-    border-radius: 50%;
-    background-color: #fff;
-    bottom: -40px;
-    left: -40px;
-}
-
-.border {
-    position: fixed;
-    width: 250px;
-    height: 300px;
-    border: 1px solid #555;
+    top: 0;
+    right: 0;
 }
